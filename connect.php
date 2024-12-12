@@ -1,9 +1,4 @@
 <?php
-$server="localhost";
-$user="root";
-$pass="";
-$dbname="alibaba";
-
 $server = getenv('autorack.proxy.rlwy.net:42793'); // هاست دیتابیس (Host)
 $user = getenv('root');   // نام کاربری دیتابیس (Username)
 $pass = getenv('WDgBKrvdinmwHuZNxWgIDGQDBnhtEssd');   // رمز عبور دیتابیس (Password)
