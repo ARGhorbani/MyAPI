@@ -1,8 +1,8 @@
 <?php
-$server = getenv('DB_HOST'); // هاست دیتابیس (Host)
-$user = getenv('DB_USER');   // نام کاربری دیتابیس (Username)
-$pass = getenv('DB_PASS');   // رمز عبور دیتابیس (Password)
-$dbname = getenv('DB_NAME'); // نام دیتابیس (Database Name)
+$server = getenv('DB_HOST');
+$user = getenv('DB_USER');  
+$pass = getenv('DB_PASS');  
+$dbname = getenv('DB_NAME'); 
 
 $dsn="mysql:host=$server;dbname=$dbname";
 try{
