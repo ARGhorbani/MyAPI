@@ -1,8 +1,8 @@
 <?php
-$server = getenv('DB_HOST');
-$user = getenv('DB_USER');  
-$pass = getenv('DB_PASS');  
-$dbname = getenv('DB_NAME'); 
+$server="autorack.proxy.rlwy.net:42793";
+$user="root";
+$pass="WDgBKrvdinmwHuZNxWgIDGQDBnhtEssd";
+$dbname="railway";
 
 $dsn="mysql:host=$server;dbname=$dbname";
 try{
