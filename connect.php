@@ -1,8 +1,8 @@
 <?php
-$server="autorack.proxy.rlwy.net:42793";
-$user="root";
-$pass="WDgBKrvdinmwHuZNxWgIDGQDBnhtEssd";
-$dbname="railway";
+$server = getenv('MYSQLHOST'); // Automatically set by Railway
+$user = getenv('MYSQLUSER'); // Automatically set by Railway
+$pass = getenv('MYSQL_ROOT_PASSWORD'); // Automatically set by Railway
+$dbname = getenv('MYSQLDATABASE'); // Automatically set by Railway
 
 $dsn="mysql:host=$server;dbname=$dbname";
 
